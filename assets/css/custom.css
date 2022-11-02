@@ -1,0 +1,210 @@
+:root {
+    --bg-primary: #20a7d5;
+    --bg-secondary: #ea2028;
+}
+
+.y-30 {
+    top: 30% !important;
+    -webkit-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+}
+
+.y-40 {
+    top: 40% !important;
+    -webkit-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+}
+
+.bg-main {
+    background-color: #20a7d5;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.download-section {
+    padding: 20px 100px;
+    background-color: #FBFBFB;
+}
+
+.download-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.download-info {
+    width: 40%;
+}
+
+.download-information {
+    padding-top: 50px;
+}
+
+.download-information h3 {
+    font-size: 42px;
+    color: #152934;
+    line-height: 50px;
+    margin-bottom: 14px;
+}
+
+.download-button {
+    padding-top: 30px;
+}
+
+.download-button h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #152934;
+    line-height: 22px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.download-button a img {
+    max-height: 55px;
+    width: auto;
+}
+
+.download-img {
+    width: 530px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.download-information p {
+    font-size: 20px;
+    color: #5D6467;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.download-button a {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.section-service .iteam-support img {
+    margin-bottom: 10px;
+    width: 6rem;
+}
+
+.section-service .iteam-support h4 {
+    margin-bottom: 0px!important;
+}
+
+.section-service .iteam-support {
+    border: 2px solid #f0f8ff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.section-service .iteam-support:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+    box-shadow: rgba(240, 248, 255, 1) 0px 5px 15px;
+}
+
+.section-title h2 {
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--bg-primary);
+}
+
+.section-title .section-icon img {
+    width: 290px;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.text-blue {
+    color: #1e2954;
+}
+
+.text-light-blue {
+    color: #16a9d5;
+}
+
+.title-link-wrapper .title {
+    color: var(--bg-primary);
+}
+
+.store-wcfm-banner .store-media img {
+    /* min-height: 15rem; */
+    height: 30rem;
+}
+
+
+/*
+.store-wcfm-banner .store-media img {
+    min-height: 46rem;
+}*/
+
+.best-selling .product-media img {
+    height: 110px;
+}
+
+.sticky-sidebar .widget-collapsible .widget-body .active {
+    color: var(--bg-secondary);
+    font-weight: 600;
+}
+
+.header-top {
+    padding: 10px;
+}
+
+.text-bg-red {
+    color: var(--bg-secondary)
+}
+
+.login-popup .form-group label .alert-form {
+    color: var(--bg-secondary);
+    font-size: 15px;
+}
+
+.login-popup .form-checkbox label {
+    color: var(--bg-primary);
+}
+
+.login-popup .form-checkbox label:hover {
+    color: var(--bg-secondary);
+}
+
+.tab-pane .address-info {
+    padding: 10px;
+}
+
+.tab-pane .address-info h4 {
+    color: var(--bg-primary);
+}
+
+.tab-pane .address-info .store-address {
+    color: var(--bg-primary);
+}
+
+.tab-pane .address-info .store-phone {
+    color: var(--bg-primary);
+}
+
+.tab-pane .address-info .store-email {
+    color: var(--bg-primary);
+}
+
+.vendor-slide {
+    min-height: 260px;
+}
+
+.about-section .about-text p {
+    text-align: justify;
+    columns: 350px 2;
+    column-gap: 40px;
+}
+
+.title {
+    color: var(--bg-primary);
+}
