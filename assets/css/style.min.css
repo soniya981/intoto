@@ -22418,8 +22418,8 @@ body .product-popup {
 }
 
 #product-tab-reviews .review-form .btn {
-    background-color: #454545;
-    border-color: #454545;
+    background-color: var(--bg-primary);
+    border-color: var(--bg-primary);
 }
 
 #product-tab-reviews .form-group {
