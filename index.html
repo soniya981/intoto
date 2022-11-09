@@ -18,6 +18,7 @@
     <link rel="preload" href="assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="assets/fonts/wolmart87d5.woff?png09e" as="font" type="font/woff" crossorigin="anonymous">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Vendor CSS -->
     <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
 
@@ -47,12 +48,25 @@
                 <div class="container">
 
                     <div class="header-right">
+
+                        <!-- End of Dropdown Menu -->
                         <a href="contact-us.html" class="d-lg-show">Contact Us</a>
                         <a href="my-account.html" class="d-lg-show">My Account</a>
                         <a href="login.html"><i
                                 class="w-icon-account"></i>Sign In</a>
                         <span class="delimiter d-lg-show">/</span>
                         <a href="register.html" class="ml-0 d-lg-show">Register</a>
+                        <div class="dropdown">
+                            <a href="#language"><img src="assets/images/flags/eng.png" alt="ENG Flag" width="14" height="8" class="dropdown-image" /> ENG</a>
+                            <div class="dropdown-box">
+                                <a href="#ENG">
+                                    <img src="assets/images/flags/eng.png" alt="ENG Flag" width="14" height="8" class="dropdown-image" /> ENG
+                                </a>
+                                <a href="#FRA">
+                                    <img src="assets/images/flags/nepal.png" alt="Nep Flag" width="14" height="8" class="dropdown-image" /> NEP
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,7 +77,7 @@
                         <a href="#" class="mobile-menu-toggle  w-icon-hamburger" aria-label="menu-toggle">
                         </a>
                         <a href="index.html" class="logo ml-lg-0">
-                            <img src="assets/images/logo-into.png" alt="logo" width="144" height="45" />
+                            <img src="assets/images/logo-into.jpg" alt="logo" width="144" height="45" />
                         </a>
 
                     </div>
@@ -222,6 +236,65 @@
                 <!-- End of .swiper-container -->
             </section>
             <!-- End of .intro-section -->
+            <div class="container">
+                <div class="swiper-container appear-animate icon-box-wrapper br-sm mt-6 mb-6 swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events fadeIn appear-animation-visible" data-swiper-options="{
+                    'slidesPerView': 1,
+                    'loop': false,
+                    'breakpoints': {
+                        '576': {
+                            'slidesPerView': 2
+                        },
+                        '768': {
+                            'slidesPerView': 3
+                        },
+                        '1200': {
+                            'slidesPerView': 4
+                        }
+                    }
+                }" style="animation-duration: 1.2s;">
+                    <div class="swiper-wrapper " id="swiper-wrapper-40a158c27247810aa" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                        <div class="swiper-slide icon-box icon-box-side icon-box-primary swiper-slide-active" role="group" aria-label="1 / 4" style="width: 309.5px;">
+                            <span class="icon-box-icon icon-shipping">
+                                <i class="w-icon-truck"></i>
+                            </span>
+                            <div class="icon-box-content">
+                                <h4 class="icon-box-title font-weight-bold mb-1">Free Shipping &amp; Returns</h4>
+                                <p class="text-default">For all orders over Rs:150</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide icon-box icon-box-side icon-box-primary swiper-slide-next" role="group" aria-label="2 / 4" style="width: 309.5px;">
+                            <span class="icon-box-icon icon-payment">
+                                <i class="w-icon-bag"></i>
+                            </span>
+                            <div class="icon-box-content">
+                                <h4 class="icon-box-title font-weight-bold mb-1">Secure Payment</h4>
+                                <p class="text-default">We ensure secure payment</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide icon-box icon-box-side icon-box-primary icon-box-money" role="group" aria-label="3 / 4" style="width: 309.5px;">
+                            <span class="icon-box-icon icon-money">
+                                <i class="w-icon-money"></i>
+                            </span>
+                            <div class="icon-box-content">
+                                <h4 class="icon-box-title font-weight-bold mb-1">Money Back Guarantee</h4>
+                                <p class="text-default">Any back within 30 days</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide icon-box icon-box-side icon-box-primary icon-box-chat" role="group" aria-label="4 / 4" style="width: 309.5px;">
+                            <span class="icon-box-icon icon-chat">
+                                <i class="w-icon-chat"></i>
+                            </span>
+                            <div class="icon-box-content">
+                                <h4 class="icon-box-title font-weight-bold mb-1">Customer Support</h4>
+                                <p class="text-default">Call or email us 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+                <!-- End of Iocn Box Wrapper -->
+
+            </div>
 
             <!--Start of Service Section-->
             <!--<section class="section-service pt-50">
@@ -331,7 +404,7 @@
             </section>-->
             <!--End of Service Section-->
             <!--Start of Most Viewed Prodcut-->
-            <section class="most-viewed pt-50">
+            <section class="most-viewed pt-30">
                 <div class="container">
                     <div class="product-wrapper-1 appear-animate mb-5">
                         <div class="title-link-wrapper pb-1 mb-4">
@@ -584,7 +657,7 @@
             <!--End of Most viewed product-->
 
             <!--Start of Most Viewed Prodcut-->
-            <section class="latest-product pt-50">
+            <section class="latest-product pt-30">
                 <div class="container">
                     <div class="product-wrapper-1 appear-animate mb-5">
                         <div class="title-link-wrapper pb-1 mb-4">
@@ -1115,6 +1188,10 @@
 
     <!-- Main JS -->
     <script src="assets/js/main.min.js"></script>
+    <script src="assets/js/smoothscroll.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 

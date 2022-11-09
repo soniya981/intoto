@@ -226,3 +226,11 @@
         height: auto;
     }
 }
+
+.product-wrap:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product-wrap {
+    border: 1px solid #d9d3d3;
+}
