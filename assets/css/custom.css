@@ -234,3 +234,15 @@
 .product-wrap {
     border: 1px solid #d9d3d3;
 }
+
+.nav-tabs .nav-link:hover {
+    border-color: #fff #fff #fff!important;
+}
+
+.nav-tabs .nav-link {
+    border-color: #fff #fff #dee2e6!important;
+}
+
+.cart-dropdown .cart-header i {
+    display: none !important;
+}
